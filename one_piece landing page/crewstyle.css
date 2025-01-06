@@ -1,0 +1,35 @@
+/* Crew Section Styling */
+#crew .crew-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .crew-member {
+    background-color: #1c1c2b; /* Darker background for each member card */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .crew-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .crew-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Bangers', sans-serif;
+  }
+  
+  .crew-member p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #ffd700;
+  }
+  

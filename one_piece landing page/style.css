@@ -1,0 +1,89 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a23; /* Dark theme */
+    color: #ffffff; /* Text color */
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  #hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://wallpapercave.com/wp/wp3194256.jpg') no-repeat center center/cover;
+    color: #ffd700; /* Gold text for pirate theme */
+    background-size: cover;
+    background-color: #0a0a23;
+    height: 100vh;
+  }
+  
+  #hero h1 {
+    font-family: 'Bangers', sans-serif; /* Apply the new font */
+    font-size: 4rem; /* Bigger font size for that epic feel */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.8), 0 0 25px rgba(255, 215, 0, 0.7); /* Adds a glow effect */
+  }
+  
+  #hero p {
+    font-family: 'Bangers', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(255, 215, 0, 0.8); /* Adds a glow effect to the quote */
+  }
+  
+  
+  /* Navigation Bar */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #13132b;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff6347; /* Slightly red hover effect */
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: fantasy;
+    font-style: italic;
+    color: #df7559;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #13132b;
+    color: #ffd700;
+  }
+  main{
+    background-image: url(bck.webp);
+    height: auto;
+    width: auto;
+    background-size: contain;
+
+  }
